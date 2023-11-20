@@ -20,19 +20,22 @@ In this task, you need to generate the following sequences/vectors/matrices with
 
 **d)**$^*$ The matrix
 
-$$\begin{pmatrix}
+$$
+\begin{pmatrix}
 1/z & 1 & 1 & \dots & 1\\
 z & 1/z & z & \dots & z\\
 \vdots & & & \dots & \\
 z^{11} & z^{11} & z^{11} & \dots & 1/z
-\end{pmatrix},$$
+\end{pmatrix},
+$$
+
 where $i$ is the imaginary unit, and $z:=\frac{\sqrt{3}+i}{2}$.
 
 ## Exercise 4.2: Least squares
 
 The ordinary least squares problem with matrix of observations $X\in\mathbb{R}^{N\times p}$ and vector of responses $y\in\mathbb{R}^N$ is given by
 
-$$\min_{w\in\mathbb{R}^p} \|Xw-y\|_2^2$$
+$$\min_{w\in\mathbb{R}^p} \|| Xw-y \||_2^2$$
 
 and has a well-known analytical solution (assuming that $X$ has full column rank):
 
@@ -44,11 +47,11 @@ Write a function that takes $X$ and $y$ as input and returns the solution of the
 
 A [candidate for the shortest mathematics paper ever published](https://www.ams.org/journals/bull/1966-72-06/S0002-9904-1966-11654-3/S0002-9904-1966-11654-3.pdf) shows the following result:
 
-\begin{equation}
+$$
 27^5+84^5+110^5+133^5=144^5\tag{*}
-\end{equation}
+$$
 
-This is a counterexample to the [Euler's sum of powers conjecture](https://en.wikipedia.org/wiki/Euler%27s_sum_of_powers_conjecture), which states that if the sum of $n$ many $k-$th powers of positive integers is itself a $k-$th power, then $n\geq k$.
+This is a counterexample to the [Euler's sum of powers conjecture](https://en.wikipedia.org/wiki/Euler%27s_sum_of_powers_conjecture), which states that if the sum of $n$ many $`k-`$th powers of positive integers is itself a $` k-`$th power, then $n\geq k$.
 
 **a)** Check if equation (*) is true.
 
