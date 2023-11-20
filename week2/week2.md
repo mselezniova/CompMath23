@@ -1,4 +1,4 @@
-# Week 1: Installing Python, intro to Python 
+# Week 2: Installing Python, intro to Python 
 
 The goal of the first exercise class is to install Python and start working with it. We will install **Miniconda**, which includes a Python distribution and a package installer called [pip](https://pypi.org/project/pip/). We will then use pip to install [numpy](https://numpy.org/install/) (a linear algebra package for Python), [Jupyter](https://jupyter.org/install), and [Spyder](https://www.spyder-ide.org) (integrated development environment for Python). We will also learn how to run Python code in different ways: in Python scripts, in Jupyter notebooks, and in Spyder. 
 
