@@ -1,0 +1,3 @@
+Materials of the exercise classes for the course "Computational Mathematics", LMU WiSe 23/24.
+
+The course offers an introduction to the Python programming language and its applications in mathematics and data analysis. In particular, the course focuses on packages for scientific computing and linear algebra (NumPy, SciPy), data processing (Pandas), visualization (Matplotlib), and symbolic computation (SymPy).
