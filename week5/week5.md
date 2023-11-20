@@ -19,7 +19,7 @@ An example of factorization output for number $28=2^2*7^1$ can look like this:
 
 ```The factors of 28 are: {2: 2, 7: 1} ```
 
-**c)$^*$** You can measure how much time it takes to run some code using ```time.time()``` function from ```time``` library. For example, you can measure and print how much time it takes to run function ```is_prime``` with input ```n``` using the following code snippet:
+**c)$`^*`$** You can measure how much time it takes to run some code using ```time.time()``` function from ```time``` library. For example, you can measure and print how much time it takes to run function ```is_prime``` with input ```n``` using the following code snippet:
 
 ```python
 start = time.time()
@@ -87,7 +87,7 @@ HOST: Your final choice is door 2!
 HOST: YOU LOST!
 ```
 
-**b)$^*$** Run two following scenarios of the game automatically many times:
+**b)$`^*`$** Run two following scenarios of the game automatically many times:
 
 1. The player starts with a random choice and then decides not to change the initial choice.
 2. The player starts with a random choice and then decides to change the initial choice.
