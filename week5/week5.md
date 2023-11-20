@@ -31,7 +31,9 @@ print(f"Time to check if {n} is prime: {end - start}")
 Try to time your functions from exercises a) and b) on some larger prime and nonprime numbers, e.g., 526891377 (nonprime) and 479001599 (prime). This may take a while if your implementations are not optimal. However, a good implementation takes just fractions of a second for these numbers. Do you have any ideas how to make your implementations in a) and b) more efficient?
 
 ## Exercise 2: Let's Make a Deal!
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Monty_open_door.svg/440px-Monty_open_door.svg.png){style="display: block; margin: 0 auto" }
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Monty_open_door.svg/440px-Monty_open_door.svg.png">
+</p>
 
 **a)** Write a text-based game that simulates the famous [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem):
 
