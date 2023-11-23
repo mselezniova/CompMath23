@@ -6,7 +6,7 @@ In this and the next classes, you will use many new functions from NumPy and oth
 
 Reading documentation is one of the most important skills in programming, and we encourage you to practice it. So next time you want to ask a question about a Python function/package/etc., first try to check that the easiest answer is not "RTFM".
 
-## Exercise 4.1: Say "No" to loops! 
+## Exercise 1: Say "No" to loops! 
 
 Python loops are famously slow, so it is not a good idea to use them in large-scale computations. Fortunately, NumPy offers *vectorization*, [*indexing*](https://numpy.org/doc/stable/user/basics.indexing.html), and [*broadcasting*](https://numpy.org/doc/stable/user/basics.broadcasting.html) as tools to elliminate loops in your code! 
 
@@ -31,7 +31,7 @@ $$
 
 where $i$ is the imaginary unit, and $z:=\frac{\sqrt{3}+i}{2}$.
 
-## Exercise 4.2: Least squares
+## Exercise 2: Least squares
 
 The ordinary least squares problem with matrix of observations $X\in\mathbb{R}^{N\times p}$ and vector of responses $y\in\mathbb{R}^N$ is given by
 
@@ -43,7 +43,7 @@ $$w^* = (X^TX)^{-1}X^T y$$
 
 Write a function that takes $X$ and $y$ as input and returns the solution of the ordinary least squares problem. Generate some arbitrary matrix $X$  and vector $y$ (such that $N>p$, and $X$ has a full column rank) and check if your function returns the right solution on these inputs (i.e., if it holds that $Xw^*-y=0$ up to a small constant).
 
-## Exercise 4.3: The shortest mathematics paper
+## Exercise 3: The shortest mathematics paper
 
 A [candidate for the shortest mathematics paper ever published](https://www.ams.org/journals/bull/1966-72-06/S0002-9904-1966-11654-3/S0002-9904-1966-11654-3.pdf) shows the following result:
 
