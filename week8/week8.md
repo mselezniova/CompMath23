@@ -43,7 +43,7 @@ The mass of Earth in astronomical units is $\approx 3\cdot 10^{-6}SM$, and its r
 
 **c)** Add a method ```gravitational_force``` to class ```Planet```. This method computes the gravitational force vector that acts on the planet in the gravitational field of a given star. The gravitational force is given by
 
-$$F = - G\dfrac{m^{planet}m^{star}}{\|x^{planet} - x^{star}\|^2}\cdot\dfrac{x^{planet} - x^{star}}{\|x^{planet} - x^{star}\|},$$
+$$F = - G\dfrac{m^{planet}m^{star}}{\|| x^{planet} - x^{star} \||^2}\cdot\dfrac{x^{planet} - x^{star}}{\||x^{planet} - x^{star}\||},$$
 
 where $m^{planet}$ and $x^{planet}$ are the mass and the position of the planet, and $m^{star}$ and $x^{star}$ are the mass and the position of the star. Here $G=4\pi^2$ is the gravitational constant given in the astronomical units $(AU^{3}yr^{-2}SM^{-1})$.
 
@@ -54,7 +54,8 @@ $$a^{planet} = F/m^{star},$$
 where $F$ is the gravitational force between the star and the planet. And then apply the following changes to the planet's position and velocity (use methods ```update_position``` and ```update_velocity``` of the parent class ```Body``` here):
 
 $$x^{planet}_{new} = x^{planet} + v^{planet}dt,$$
-$$v^{planet}_{new} = v^{planet} + a^{planet}dt.$$
+
+$$v^{planet}_{new} = v^{planet} + a^{planet}dt .$$
 
 **e)** Compute the Earth's orbit with the given initial conditions for 10 years ahead and plot the trajectory. To avoid large accumulated computational error, use small values of ```dt```, e.g., $10^{-5}$. Try slightly changing the initial velocity of Earth and observe how the orbit changes (changing the velocity too much may lead to computational errors though). The plot generated in this task may look like this:
 
@@ -62,6 +63,6 @@ $$v^{planet}_{new} = v^{planet} + a^{planet}dt.$$
   <img src="https://raw.githubusercontent.com/mselezniova/CompMath23/a80dba28d25d1e11fdfaea7f4f15a63724d538a3/images/week8/ex2.svg">
 </p>
 
-You can see that initial velocity such that $\|v_0\|=2\pi$ gives a circular orbit, while slightly larger or smaller velocities create eliptic orbits. When the initial velocity becomes too large, the trajectory becomes hyperbolic, i.e., the planet escapes the orbit of the star. 
+You can see that initial velocity such that $\||v_0\||=2\pi$ gives a circular orbit, while slightly larger or smaller velocities create eliptic orbits. When the initial velocity becomes too large, the trajectory becomes hyperbolic, i.e., the planet escapes the orbit of the star. 
 
 
