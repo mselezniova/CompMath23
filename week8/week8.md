@@ -49,7 +49,7 @@ where $m^{planet}$ and $x^{planet}$ are the mass and the position of the planet,
 
 **d)** Add a method ```compute_orbit_step``` to the class ```Planet```. This method takes time step ```dt``` and ```star``` as arguments, and changes the position and the velocity of the planet as if the planet is in the gravitational field of the ```star```. In other words, you need to calculate the planet's acceleration as follows:
 
-$$a^{planet} = F/m^{star},$$
+$$a^{planet} = F/m^{planet},$$
 
 where $F$ is the gravitational force between the star and the planet. And then apply the following changes to the planet's position and velocity (use methods ```update_position``` and ```update_velocity``` of the parent class ```Body``` here):
 
