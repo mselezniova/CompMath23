@@ -4,7 +4,7 @@ In this class, we practice numeric integration and solving of ODEs using [scipy.
 
 ## Exercise 1: SIR model
 
-[The SIR model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) is a simple mathematical model to simulate epidemics. In this model, the population is divided into three groups: **S**usceptible, **I**nfectious, and **R**emoved (recovered or dead). The size of the respective groups is given as functions of time $S(t)$, $I(t)$ and $R(t)$. It is also assumed that there is an infection rate $\beta\in\mathbb{R}_{+}$ and a recovery/death rate $\gamma\in\mathbb{R}_{+}$. Then the model is defined by the following system of differential equations:
+[The SIR model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) is a simple mathematical model to simulate epidemics. In this model, the population is divided into three groups: **S**usceptible, **I**nfectious, and **R**emoved (recovered or dead). The size of the respective groups is given as functions of time $S(t)$, $I(t)$ and $R(t)$. It is also assumed that there is an infection rate $`\beta\in\mathbb{R}_{+}`$ and a recovery/death rate $`\gamma\in\mathbb{R}_{+}`$. Then the model is defined by the following system of differential equations:
 
 $$\dfrac{dS}{dt} = -\beta I S, \quad \dfrac{dI}{dt} = \beta I S - \gamma I, \quad \dfrac{dR}{dt} = \gamma I$$
 
