@@ -34,10 +34,10 @@ To achive this, we can represent a rational number $q \in \mathbb{Q}$ using two 
 
 **b)** The Wallis product formula for $\pi$ is given by
 
-$$\pi = 2\prod_{i=1}^\infty \dfrac{(2n)^2}{(2n-1)(2n+1)}$$
+$$\pi = 2\prod_{n=1}^\infty \dfrac{(2n)^2}{(2n-1)(2n+1)}$$
 Then the partial products 
 
-$$\pi_N = 2\prod_{i=1}^N \dfrac{(2n)^2}{(2n-1)(2n+1)}$$
+$$\pi_N = 2\prod_{n=1}^N \dfrac{(2n)^2}{(2n-1)(2n+1)}$$
 are all rational numbers. 
 
 Create a new Python file `wallis_product.py` and import your class of rational numbers in this file (`from rational_numbers import Rational`). In the new script, generate and print a list of the first 20 approximations of $\pi$ by the partial Wallis products. Then convert the sequence to floating point, create a numpy array out of it, and compare the values in the array to $\pi$ (i.e., ```math.pi``` or ```np.pi```) to determine the precision of the approximation at each step.
