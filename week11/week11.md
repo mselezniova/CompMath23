@@ -6,11 +6,11 @@ This week we practice basic data analysis tools, such as curve fitting and compu
 
 [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) consists of four small datasets that have identical simple statistical characteristics (such as mean and variance), yet have very different distributions, and look very different when plotted. The goal of this task is to investigate these datasets.
 
-**a)** Load the datasets from `Anscombe.txt` file and store them a numpy arrays (you can use `numpy.loadtxt` function to load a text file). The file contains a matrix of 8 columns and 11 rows. Each two columns of this matrix represent $(x,y)-$coordinates of a singe dataset. 
+**a)** Load the datasets from `Anscombe.txt` file and store them as numpy arrays (you can use `numpy.loadtxt` function to load a text file). The file contains a matrix of 8 columns and 11 rows. Each two columns of this matrix represent $(x,y)-$coordinates of a singe dataset. 
 
-**b)** Calculate and print the statistical characteristics of all the four datasets: expected value (`np.mean`) and variance (`np.var`) .
+**b)** Calculate and print statistical characteristics of all the four datasets: expected value (`np.mean`) and variance (`np.var`).
 
-**c)** Use ```scipy.optimize.curve_fit``` to fit a straight line, i.e., a function of the form $f(x)=ax+b$, to each of the datasets. Then plot all the datasets together with the corresponding fitted curves in a single plot (use suplots). The output of this task should look as follows:
+**c)** Use ```scipy.optimize.curve_fit``` to fit a straight line, i.e., a function of the form $f(x)=ax+b$, to each of the datasets. Then plot each dataset together with the corresponding fitted curve. Place all the four plots in a single figure using suplots. The output of this task should look as follows:
 
 ![](https://raw.githubusercontent.com/mselezniova/CompMath23/media/images/week11/anscombe.svg)
 
@@ -22,7 +22,7 @@ Notice that the lines fitted to all the datasets are the same, even though the d
 
 ![](https://raw.githubusercontent.com/mselezniova/CompMath23/media/images/week11/irises.png)
 
-[The iris flower dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) is often used as an example for data analysis methods. This dataset contains four features: the length and the width of the sepals and petals of iris flowers, in centimeters. There are 50 samples per each of three species of Iris (*Iris setosa*, *Iris virginica* and *Iris versicolor*). 
+[The iris flower dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) is often used as an example for data analysis methods. This dataset contains four features: length and width of sepals and petals of iris flowers, in centimeters. There are 50 samples per each of three species of Iris (*Iris setosa*, *Iris virginica* and *Iris versicolor*). 
 The goal is to distiguish between the species based on the features.
 
 **a)** Download the `iris.csv` file and load it in Python (you can use `pandas.read_csv` function).
