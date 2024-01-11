@@ -1,6 +1,6 @@
 # Week 11: Data Analysis
 
-This week we practice basic data analysis tools, such as curve fitting and computing statistical characteristic of the data, using [SciPy](https://scipy.org) and [Pandas](https://pandas.pydata.org) libraries.
+This week we practice basic data analysis tools, such as curve fitting and computing statistical characteristic of data, using [SciPy](https://scipy.org) and [Pandas](https://pandas.pydata.org) libraries.
 
 ## Exercise 1: Anscombe's quartet 
 
